@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <title>Google</title>
 </head>
@@ -17,10 +18,11 @@
                    <a href="#" class="imagens">Imagens</a>
                 </div> 
                 <div class="apps">
-                    <img src="images/menu-icon.png" alt="icon menu">
+                    <button id="apps" type="click" onclick="Abrir()"><img src="images/menu-icon.png" alt="icon menu"></button>
+                   
                 </div>
                 <div class="profile">
-                    <img src="images/profile-icon.png" alt="profile icon">
+                    <button id="perfil" type="click" onclick="Abrir()"><img src="images/profile-icon.png" alt="profile icon"></button>
                 </div>
             </div>
         </header>
@@ -35,8 +37,8 @@
                     <input type="text">
                 </label>
                 <div class="key-mic">
-                    <img src="images/keyboard-icon.png" alt="icone de telcado" class="keyb">
-                    <img src="images/mic-icon.png" alt="" class="mic">
+                    <button id="teclado" type="click" onclick="teclado()"> <img src="images/keyboard-icon.png" alt="icone de telcado" class="keyb"></button>
+                    <button id="microfone" type="click" onclick="microfone()"> <img src="images/mic-icon.png" alt="" class="mic"></button>                  
                 </div>
             </div>
             <div class="buttons">
